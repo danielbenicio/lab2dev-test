@@ -10,8 +10,7 @@ const list = [
 	{ produto: "sofa", categoria: "moveis", valor: 3745.61 },
 	{ produto: "mesa", categoria: "moveis", valor: 3111.82 },
 	{ produto: "cadeira", categoria: "moveis", valor: 329.41 }
-]
-
+];
 
 const eletrodomestico = list.filter(produto  => (
   produto.categoria == 'eletrodomestico'
